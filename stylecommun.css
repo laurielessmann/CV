@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -90px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+header {
+    background-color: violet; 
+    padding-top:25px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+}
+
+header a {
+    color: black;
+    font-family:Edwardian Script ITC;
+    font-size: 30px;
+    text-decoration: none;
+    
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+}
+
+body {
+    background-image:url(images/galaxy.jpg);
+    background-size: cover;
+}
+footer { 
+     background-color: violet; 
+    padding-top:5px;
+    padding-bottom: 5px;
+    height:80px;
+    border-radius: 10px;
+}
+
+footer p {
+    display: inline-block;
+}
+
+footer img{
+    position: relative;
+    top:13px;
+}
+
+footer li { 
+    list-style: none;
+    display: inline-block;
+/*    width: 23%;*/
+    text-align:center;
+    padding-left:15px
+}
+
+ol{
+    list-style: none;
+}
